@@ -10,6 +10,36 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-position: center;
+  background-image: url('/d4590.png');
+  background-size: 50%; /* Reduz o tamanho da imagem para 50% */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main p {
+  font-size: 24px; /* Tamanho da fonte */
+  font-weight: bold; /* Peso da fonte */
+  color: #ffffff; /* Cor do texto (branco) */
+  background-color: #333; /* Cor de fundo do texto */
+  padding: 10px 20px; /* Espaçamento interno do texto */
+  border-radius: 5px; /* Arredondamento das bordas */
+  text-align: center; /* Alinhamento central do texto */
+}
+
+.chamativoLink {
+  color: #fff; /* Cor do texto */
+  background-color: #000000; /* Cor de fundo */
+  padding: 10px 20px; /* Espaçamento interno */
+  border-radius: 5px; /* Borda arredondada */
+  text-decoration: none; /* Remove sublinhado padrão */
+  font-weight: bold; /* Texto em negrito */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave de cores */
+}
+
+.chamativoLink:hover {
+  background-color: #ff005b; /* Cor de fundo ao passar o mouse */
+  color: #fff; /* Cor do texto ao passar o mouse */
 }
 
 .footer {
@@ -126,4 +156,139 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.section {
+  height: 100vh; /* 100% da altura da tela */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+
+}
+
+.section1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/sec1.png');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+.section2 {
+  height: 120vh; /* 100% da altura da tela */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: #FF383E; 
+  background-size: cover; /* Para ajustar a imagem ao tamanho da seção */
+  background-position: center; 
+}
+
+.section3 {
+  height: 120vh; /* 100% da altura da tela */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-image: url('/sec3.png'); /* Caminho para a imagem de fundo */
+  background-size: cover; /* Para ajustar a imagem ao tamanho da seção */
+  background-position: center; 
+}
+
+
+.section4 {
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  align-items: center;
+  background-image: url('/sec4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.section4::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* Metade da largura da seção */
+  height: 100%;
+  background-color: red;
+}
+
+.imageHalf {
+  flex: 1;
+  background-image: url('/sec4.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.redHalf {
+  flex: 1;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.section5 {
+  height: 120vh; /* 100% da altura da tela */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color:#000000; /* Caminho para a imagem de fundo */
+  background-size: cover; /* Para ajustar a imagem ao tamanho da seção */
+  background-position: center; 
+}
+
+
+.section6 {
+  height: 120vh; /* 100% da altura da tela */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-image: url('/sec6.png'); /* Caminho para a imagem de fundo */
+  background-size: cover; /* Para ajustar a imagem ao tamanho da seção */
+  background-position: center; 
+}
+/* Home.module.css */
+.redText {
+  color: #FF383E;
+  font-family: 'Anton', sans-serif;
+  font-size: 92px;
+}
+
+.whiteText {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 92px;
+}
+
+.customH1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: 'Anton', sans-serif;
+  font-size: 92px;
 }
