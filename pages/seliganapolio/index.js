@@ -9,7 +9,7 @@ import styles from '../../styles/Home.module.css'
 
 import { Element } from 'react-scroll'
 
-function Home() {
+function seliganapolio() {
   return (
     <div>
       <header></header>
@@ -37,4 +37,4 @@ function Home() {
   )
 }
 
-export default Home
+export default seliganapolio
